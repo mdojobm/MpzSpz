@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IRC / VRP</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_MpzActivity">IRC - international registration codes</string>
+    <string name="title_SpzActivity">VRP - vehicle registration plate</string>
+    <string name="title_SpzIntroActivity">VRP - vehicle registration plate</string>
+    <string name="title_mpz_detail_activity">IRC - international registration codes</string>
+    <string name="title_spz_detail_activity">VRP - vehicle registration plate</string>
+ 
+    <!-- CSV file setting -->
+    <string name="csv_separator">;</string>
+    <string name="csv_file">mpz_db.csv</string>
+    
+    <!-- Content IRC -->
+    <string name="textview_code">IRC: </string>
+    <string name="textview_country">country: </string>
+    <string name="textview_continent">continent: </string>
+    <string name="textview_wiki_link">wiki: </string>
+    <string name="textview_flag">flag: </string>
+        
+    <!-- Content VRP -->
+    <string name="cr">Czech Republic</string>
+    <string name="pl">Poland</string>
+    <string name="sk">Slovakia</string>
+    
+    <string name="textview_spz_code">VRP: </string>
+    <string name="textview_spz_code_meaning">meaning: </string>
+    <string name="textview_spz_region">region: </string>
+    <string name="textview_spz_wiki_link">wiki: </string>
+    <string name="textview_spz_example">example: </string>
+</resources>

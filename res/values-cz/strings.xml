@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MPZ / SPZ</string>
+    <string name="action_settings">Nastavení</string>
+
+    <string name="title_MpzActivity">MPZ - mezinárodní poznávací značky</string>
+    <string name="title_SpzActivity">SPZ - státní poznávací značky</string>
+    <string name="title_SpzIntroActivity">SPZ - státní poznávací značky</string>
+    <string name="title_mpz_detail_activity">MPZ - mezinárodní poznávací značky</string>
+    <string name="title_spz_detail_activity">SPZ - státní poznávací značky</string>
+ 
+    <!-- CSV file setting -->
+    <string name="csv_separator">;</string>
+    <string name="csv_file">mpz_spz_db.csv</string>
+    
+    <!-- Content IRC -->
+    <string name="textview_code">MPZ: </string>
+    <string name="textview_country">stát: </string>
+    <string name="textview_continent">světadíl: </string>
+    <string name="textview_wiki_link">wiki: </string>
+    <string name="textview_flag">vlajka: </string>
+        
+    <!-- Content VRP -->
+    <string name="cr">Česká republika</string>
+    <string name="pl">Polsko</string>
+    <string name="sk">Slovensko</string>
+    
+    <string name="textview_spz_code">SPZ: </string>
+    <string name="textview_spz_code_meaning">význam: </string>
+    <string name="textview_spz_region">oblast: </string>
+    <string name="textview_spz_wiki_link">wiki: </string>
+    <string name="textview_spz_example">vzor: </string>
+</resources>
