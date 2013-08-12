@@ -4,5 +4,5 @@
     <item android:drawable="@drawable/spz"
           android:state_selected="true" />
     <!-- When not selected, you should use bg with white -->
-    <item android:drawable="@drawable/spz" />
+    <item android:drawable="@drawable/spz_gray" />
 </selector>

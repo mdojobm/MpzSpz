@@ -28,9 +28,11 @@ public final class R {
         public static final int icon_spz_config=0x7f020004;
         public static final int image_frame=0x7f020005;
         public static final int mpz=0x7f020006;
-        public static final int pl=0x7f020007;
-        public static final int sk=0x7f020008;
-        public static final int spz=0x7f020009;
+        public static final int mpz_gray=0x7f020007;
+        public static final int pl=0x7f020008;
+        public static final int sk=0x7f020009;
+        public static final int spz=0x7f02000a;
+        public static final int spz_gray=0x7f02000b;
     }
     public static final class id {
         public static final int action_settings=0x7f080018;

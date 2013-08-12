@@ -66,17 +66,18 @@ public class MpzActivity extends ListActivity implements TextWatcher {
 	         * READ FROM CSV FILE TO DB OUTPUT
 	         * */
 	        try {
-	        	InputStream input = assetManager.open(this.getString(R.string.csv_file));            
+	        	InputStream input = assetManager.open("mpz_db.csv");            
 	        	Reader reader = new InputStreamReader(input);
 		        BufferedReader br = new BufferedReader(reader);
 		    	String line = "";
 		    	String cvsSplitBy = this.getString(R.string.csv_separator);
 	
 		    	while ((line = br.readLine()) != null) {
-		     
+		    		
+		    		
 		    		// use comma as separator
-		    		String[] csv_value = line.split(cvsSplitBy);
-		     
+		    		String[] csv_value = line.split(cvsSplitBy);		    
+		    		
 		        	ivm = db_source.createDbContent(
 		        			csv_value[0],
 		        			csv_value[1],

@@ -24,7 +24,7 @@ public class DbHandler extends SQLiteOpenHelper {
 	public static final String COLUMN_CODE_MEANING = "code_meaning";
 	public static final String COLUMN_REGION = "region";
 
-	private static final String DATABASE_NAME = "InternationalVrc.db";
+	private static final String DATABASE_NAME = "InternationalIrcVrp.db";
 	private static final int DATABASE_VERSION = 1;
     
     // Table creation sql statement (MPZ)
